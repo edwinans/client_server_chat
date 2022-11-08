@@ -5,7 +5,7 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github edwinans/client_server_chat))
 
 (authors "Edwin Ansari")
 
@@ -18,9 +18,7 @@
 (package
  (name client_server_chat)
  (synopsis "Simple one-to-one chat")
- (description "A longer description")
+ (description "TCP client and server for chat")
  (depends ocaml dune)
  (tags
   (topics "to describe" your project)))
-
-; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project
